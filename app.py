@@ -3,7 +3,18 @@ import pandas as pd
 import joblib
 
 # TÍTULO
-st.title("Predicción de Cáncer de Mama")
+st.markdown("""
+### Datos del Proyecto
+- **Institución:** Universidad Autónoma de Chihuahua
+- **Materia:** Machine Learning
+- **Profesora:** Dra. Olanda Prieto Ordaz
+- **Alumna:** Alma Delia Corral Sáenz
+- **Fecha:** Mayo, 2026          
+
+
+""")
+
+st.title("Predicción de cáncer de mama")
 st.write("Aplicación de Machine Learning con múltiples modelos para la clasificación benigna o maligna de masas tumorales mamarias ")
 
 # SELECCIÓN DE MODELO
